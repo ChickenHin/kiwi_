@@ -1,11 +1,11 @@
 name: Build and upload wheels
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 3'
-  push:
-    tags:
-      - '*'
+  # schedule:
+  #   - cron: '0 0 * * 3'
+  # push:
+  #   tags:
+  #     - '*'
 
 jobs:
   build_sdist:
